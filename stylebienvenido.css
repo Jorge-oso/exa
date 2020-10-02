@@ -1,0 +1,56 @@
+body{
+    background: #05456E;
+}
+
+.lume{
+    background: #E9F1F9;
+    margin-right: 20%;
+    margin-left: 20%;
+    height:75%;
+    border-radius: 5px;
+}
+
+form{/*cuerpo del formulario*/
+    margin: 50px;/*Centrado del formulario*/
+    padding: 60px;/*tamaño del formulario*/
+    background:#0099F9;
+    font-size: 25px;/*tamaño de las letras*/
+    font-size: sans-serif;
+    border-radius: 5px;
+}
+
+form li,input{/*Separacion ordenada de los label y los input*/
+    display: block;
+}
+
+form li,input{
+    margin: auto;
+    width: 75%;
+    border-radius: 5px;
+    font-size: 25px;/*Tamaño de las letras*/
+    font-size: sans-serif;
+}
+.box2{
+    text-align: center;
+    color: white;
+}
+#inicio{
+    padding: 10px;/*Tamaño del boton en lo ancho*/
+    font-size: 20px;/*Tamaño del boton en lo largo*/
+    display:block;/*Separacion*/
+    margin: auto;/*Centrado del margen del boton*/
+    border-radius: 5px;
+}
+#inicio:hover{
+    background: #05456E;
+    cursor: pointer;
+    border: 2px solid red;
+}
+/*tamaños de la imagen*/
+#imagen{
+    margin-left: 40%;
+    width: 20%;
+    height: 23%;
+    border-radius: 5px;
+    border:2px solid #05456E;
+}
